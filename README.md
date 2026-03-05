@@ -3,6 +3,8 @@
 This repository contains the dataset, experiment code, and results for the paper:
 
 > **Stroke2Font: A Hierarchical Vector Algorithm with AI-Driven Optimization for Chinese Font Generation**
+>
+> **Paper**: [https://www.preprints.org/manuscript/202602.0798](https://www.preprints.org/manuscript/202602.0798)
 
 ## Overview
 
