@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Paper-specific (not open-sourced)
+doc/
+pdf/
+txt/
+appendix/
+copyto/
+updata/
+figures/
+*.zip
+
+# Data — only keep paper-1-180xk.json
+data/*
+!data/paper-1-180xk.json
+
+# Paper-specific scripts
+src/generate_fig*.py
+src/generate_pipeline_svg.py
+src/generate_font_style_comparison.py
+src/generate_appendix*.py
+src/generate_dataset.py
+src/generate_*chars_visualization.py
+src/clean_heiti_dataset.py
+src/gen_proofread.py
+src/reorder_chars.py
+src/vsc-2-ok-english.py
+
+# Paper-specific images in root
+hanzi_*.png
+dataset_overview_150chars.png
+sample_characters_150.png
+holdout_evaluation_xk.png
+holdout_evaluation_xk.svg
+complexity_distribution.png
+stroke_type_distribution.png
+
+# Large inference output
+output/optimized_results.json
+
+# Logs
+*.log
+results/experiment.log

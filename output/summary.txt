@@ -1,0 +1,21 @@
+Stroke2Font DQN Inference Summary
+==================================================
+Input:  data/paper-1-180xk.json (179 chars)
+Model:  results/dqn_model.pt
+Device: cpu
+Time:   7.2s
+
+  Baseline:
+    Fidelity:   61.9% ± 6.3%
+    Smoothness: 0.1978
+    Avg time:   1.95ms
+
+  AI Adaptive:
+    Fidelity:   65.6% ± 5.6%
+    Smoothness: 8.4353
+    Avg time:   4.75ms
+
+  DQN (Ours):
+    Fidelity:   61.6% ± 6.1%
+    Smoothness: 0.3620
+    Avg time:   8.34ms
