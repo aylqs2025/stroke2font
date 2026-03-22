@@ -4,7 +4,7 @@ This repository contains the dataset, experiment code, and results for the paper
 
 > **Stroke2Font: A Hierarchical Vector Algorithm with AI-Driven Optimization for Chinese Font Generation**
 >
-> **Paper**: [https://www.preprints.org/manuscript/202602.0798](https://www.preprints.org/manuscript/202602.0798)
+> **Paper**: [https://www.mdpi.com/1999-4893/19/3/231](https://www.mdpi.com/1999-4893/19/3/231)
 
 ## Overview
 
@@ -172,9 +172,15 @@ MIT License
 If you use this code or dataset in your research, please cite:
 
 ```bibtex
-@article{stroke2font2025,
+@article{li2025stroke2font,
   title={Stroke2Font: A Hierarchical Vector Algorithm with AI-Driven Optimization for Chinese Font Generation},
   author={Li, Qingsheng},
-  year={2025}
+  journal={Algorithms},
+  volume={19},
+  number={3},
+  pages={231},
+  year={2026},
+  publisher={MDPI},
+  doi={10.3390/a19030231}
 }
 ```
